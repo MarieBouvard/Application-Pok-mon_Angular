@@ -1,0 +1,8 @@
+<h2 class="text-center">Génération de pokémon : </h2>
+<h3 class="text-center mt-5">Les générations de Pokémon</h3>
+<hr>
+<ul *ngIf="generations.length > 6">
+  <li *ngFor="let chaqueGeneration of generations" class="mt-2 w-25 border border-rounded bd-black mx-auto text-center">
+    {{ chaqueGeneration }}
+  </li>
+</ul>
